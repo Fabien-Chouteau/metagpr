@@ -1,0 +1,6 @@
+source_dirs = ["src"]
+
+[configuration]
+config_package = "Lib3_Config"
+
+parameter.verbose = {type = "bool", default = false}

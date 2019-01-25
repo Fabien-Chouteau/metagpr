@@ -1,0 +1,16 @@
+source_dirs = ["src"]
+object_dir = "obj"
+main = ["main.adb"]
+
+[[dependencies]]
+path = "../deps/lib1/lib1.mgpr"
+parameter.verbose = true
+parameter.max_path_len = 42
+
+[[dependencies]]
+path = "../deps/lib2/lib2.mgpr"
+parameter.verbose = true
+
+
+[configuration]
+config_package = "App_Config"

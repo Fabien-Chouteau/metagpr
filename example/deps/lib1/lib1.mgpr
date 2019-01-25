@@ -1,0 +1,8 @@
+source_dirs = ["src"]
+
+[configuration]
+config_package = "Lib1_Config"
+
+parameter.max_path_len = {type = "int", default = 100, max = 1024, min = 0}
+parameter.verbose = {type = "bool", default = false}
+

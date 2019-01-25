@@ -1,0 +1,14 @@
+source_dirs = ["src"]
+
+[configuration]
+config_package = "Lib2_Config"
+
+parameter.verbose = {type = "bool", default = false}
+parameter.url= {type = "string", default = "example.com"}
+
+
+[[dependencies]]
+path = "../lib3/lib3.mgpr"
+parameter.verbose = false
+
+# TODO; use project parameters to set dependency parameters
